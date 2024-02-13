@@ -1,6 +1,7 @@
 import "./App.css";
 import Count from "./Count";
 import Team from "./Team";
+import Users from "./Users";
 
 function App() {
   // Evend Handeler Normal Function way 1
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <h3>React Core Concept 2</h3>
+      <Users></Users>
       <Team></Team>
       <Count></Count>
       <button onClick={handleClick}>Click Button 1</button>
